@@ -158,3 +158,9 @@ void app_main(void)
 
     ESP_LOGI(TAG, "Sistema listo para recibir muestras serie desde app_generator.py.");
 }
+
+/*
+ * NOTA DE OPERACION SERIE:
+ * Si al flashear esptool arroja 'PermissionError: Acceso denegado', verificar que no existan
+ * monitores abiertos (idf_monitor.py) o apps de streaming reteniendo el handle del puerto COM.
+ */
