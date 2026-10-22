@@ -10,8 +10,8 @@ class SignalStreamerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("PDS UNRaf - TP2: Recreación de Señales por Streaming")
-        self.root.geometry("820x640")
-        self.root.resizable(False, False)
+        self.root.geometry("980x760")
+        self.root.resizable(True, True)
 
         # Estado de conexión y streaming
         self.ser = None
